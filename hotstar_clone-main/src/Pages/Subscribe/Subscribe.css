@@ -1,0 +1,230 @@
+.bg-sub {
+    background-color: var(--BG_COLOR_L1);
+    padding-bottom: 10px;
+}
+
+.h4-title-sub {
+    width: 50%;
+    margin: 0px auto 20px;
+    padding-top: 80px;
+    color: var(--TEXT_COLOR_L5);
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    background: var(--BG_GRADIENT_L1);
+    padding: 25px 50px 20px;
+    border-radius: 8px;
+    /* -webkit-box-shadow: 0 -80px 100px 0 #0c111b; */
+    box-shadow: 0 -80px 100px 0 #0c111b;
+    /* display: -webkit-box; */
+    overflow: auto;
+}
+
+
+table {
+    width: 100%;
+    color: var(--TEXT_COLOR_L3);
+    /* margin: 0px 20px; */
+}
+
+table i {
+    display: inlblock;
+    font-size: 20px;
+    text-align: center;
+    /* overflow-x: scroll; */
+}
+
+.blank-td-header {
+    width: 61.5%;
+}
+
+tr {
+    text-align: left;
+}
+
+.border-bottom-sub {
+    border-bottom: 1px solid var(--BORDER_COLOR_L1);
+}
+
+td {
+    padding: 10px 0px 10px 5px;
+    text-align: center;
+}
+
+.movie {
+    font-size: 14px;
+    color: var(--TEXT_BTN_COLOR);
+}
+
+.lef {
+    text-align: left;
+}
+
+.mid {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.back-chnge {
+    background-color: var(--BG_COLOR_L2);
+    color: var(--TEXT_COLOR_L1);
+    font-weight: 600;
+}
+
+.highlight-title-box-sub {
+    border-radius: 5px 5px 0px 0px;
+    background-color: var(--BG_COLOR_L2);
+    color: #fedf7b !important;
+}
+
+.highlight-contant-box-sub {
+    background-color: var(--BG_COLOR_L2);
+    color: var(--TEXT_COLOR_L0) !important;
+    border: transparent;
+}
+
+.highlight-price-box-sub {
+    background-color: rgba(31,128,224,0.4) !important;
+    color: white !important;
+}
+.highlight-price-color-box-sub {
+    color: #fedf7b !important;
+}
+
+.bor-rad {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.color-cell-box-sub {
+    color: var(--TEXT_COLOR_L4)
+}
+
+.plans {
+    width: 100%;
+    display: flex;
+}
+
+.scrolleble-box-sub {
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.plans-box {
+    width: 33%;
+    margin: 10px 0px;
+    padding: 8px 0;
+    border: 1px solid var(--TEXT_COLOR_L3);
+    border-radius: 10px;
+    color: var(--TEXT_COLOR_L0);
+    font-weight: 600;
+    background-color: var(--BG_COLOR_L1);
+    text-align: left;
+}
+
+.vertical-up-sub {
+    vertical-align: top;
+}
+
+.plans-box p {
+    font-size: 16px;
+    padding: 15px 10px 0px 10px;
+    line-height: 0;
+}
+
+.time-btn-sub {
+    font-weight: 300;
+}
+
+.price-btn-sub {
+    font-size: 20px;
+}
+
+.height-box-sub {
+    height: 68px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-2 {
+    width: 100%;
+    background-color: var(--TEXT_BTN_COLOR);
+    color: var(--TEXT_COLOR_L0);
+}
+
+.btn-2:hover {
+    color: var(--TEXT_COLOR_L0);
+    background-color: #243bbb;
+}
+
+.clr-chng2 p:nth-child(1) {
+    color: yellow;
+}
+
+.clr-chng2 {
+    background-color: var(--BG_COLOR_L2);
+}
+
+.poi-rel {
+    position: relative;
+}
+
+.poi-ab {
+    position: absolute;
+}
+
+.check-mark {
+    font-size: 18px;
+    background-color: var(--TEXT_COLOR_L0);
+    color: var(--BG_COLOR_L2);
+    border-radius: 15px;
+    right: -5px;
+    top: -8px;
+}
+.check-mark-hidden {
+    visibility: hidden;
+}
+
+/* scrollbar ------------------ */
+
+.scrolleble-box-mouseEnter-sub::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+.scrolleble-box-mouseEnter-sub::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    /* border-radius: 10px; */
+}
+
+/* Handle */
+.scrolleble-box-mouseEnter-sub::-webkit-scrollbar-thumb {
+    background: var(--whiteTransp);
+}
+
+.scrolleble-box-mouseLeave-sub::-webkit-scrollbar {
+    width: 3px;
+}
+
+.scrolleble-box-mouseLeave-sub::-webkit-scrollbar-thumb {
+    visibility: hidden;
+}
+
+/* animation-------------------------- */
+.animation-container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 130%;
+    background: #000;
+    z-index: -100;
+}
+.animation-moving-up{
+    width: 100%;
+    height: 100%;
+}
